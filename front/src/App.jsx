@@ -15,7 +15,7 @@ export default function App() {
         return;
       }
 
-      const res = await fetch("http://localhost:5000/api/data", {
+      const res = await fetch("https://bajaj-pro.onrender.com/api/data", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(parsedInput),
